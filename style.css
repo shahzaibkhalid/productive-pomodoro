@@ -1,0 +1,118 @@
+/* styling background color & font of whole page */
+body {
+    background-color: #F2F2F2;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    margin: 0;
+}
+
+/* styling top heading */
+.heading {
+    font-size: 65px;
+    color: rosybrown;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    margin: 15px auto;
+}
+
+/* styling sub-heading */
+.sub-heading {
+    font-size: 30px;
+    color: rosybrown;
+    font-family: 'Amatic SC', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* using media queries to properly scale heading's font size */
+@media only screen and (max-width: 700px) {
+    .heading {
+        font-size: 50px;
+    }
+}
+
+/* styling clock circle */
+.clock {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid rosybrown;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: #F2F2F2;
+    font-size: 32px;
+    color: rosybrown;
+    cursor: pointer;
+}
+
+/* brining a click feeling to clock */
+.clock:active {
+    transform: translateY(4px);
+}
+
+/* removing blue outline from clock when clicked */
+.clock:focus {
+    outline: 0px;
+}
+/* this style acts as a container and thus everything gets centered within by inheriting */
+.centering-buttons {
+    text-align: center;
+}
+
+/* styling buttons to add or subtract timing*/
+.add-subtract-button {
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    border-radius: 50%;
+    background-color: white;
+    color: rosybrown;
+    border: 1px solid #F2F2F2;
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* brining a click feeling to clock */
+.add-subtract-button:active {
+    transform: translateY(4px);
+}
+
+/* removing blue outline from clock when clicked */
+.add-subtract-button:focus {
+    outline: 0px;
+}
+
+/* styling feature headings such as session & break length*/
+.feature-heading {
+    text-align: center;
+    color: rosybrown;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/* styling session & break minutes */
+.minutes-length {
+    color: rosybrown;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* styling footer texts */
+footer {
+    margin-top: 50px;
+}
+.footer-personal {
+    text-align: center;
+    font-size: 16px;
+    color: rosybrown;
+}
+.footer-code-license {
+    text-align: center;
+    font-size: 14px;
+    color: rosybrown;
+}
+a {
+    color: black;
+    text-decoration: none;
+}

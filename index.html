@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Productive Pomodoro Clock | Goals Achieving Timer</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Productive Pomodoro Clock | Goals Achieving Timer" content="A simple to use, goals achieving Pomodoro technqiue timer, all using HTML, CSS &amp; JavaScript.">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">    
+    <meta property="og:title" content="Productive Pomodoro Clock | Goals Achieving Timer">
+    <meta property="og:description" content="A simple to use, goals achieving Pomodoro technqiue timer, all using HTML, CSS &amp; JavaScript.">
+    <meta property="og:url" content="https://shahzaibkhalid.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/social-sharing-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@shahzaibkhalid">
+    <meta name="twitter:creator" content="@shahzaibkhalid" />
+    <meta name="twitter:title" content="Productive Pomodoro Clock | Goals Achieving Timer">
+    <meta name="twitter:description" content="A simple to use, goals achieving Pomodoro technqiue timer, all using HTML, CSS &amp; JavaScript.">
+    <meta name="twitter:image" content="./images/social-sharing-card.png">
+    <meta name="twitter:url" content="https://shahzaibkhalid.github.io">
+</head>
+
+<body>
+    <h1 class="heading">Productive Pomodoro Clock</h1>
+    <h2 class="sub-heading">Goals Achieving Timer!</h2>
+    <button id="my-clock" onclick="startClock()" class="clock"><span id="status">Session<br></span>
+        <span id="minutes">25</span>:<span id="seconds">0</span>
+    </button>
+    <p class="feature-heading">SESSION LENGTH</p>
+    <div class="centering-buttons">
+        <button class="add-subtract-button" id="session-length-sub">-</button>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="minutes-length" id="session-length">25</span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <button class="add-subtract-button" id="session-length-add">+</button>
+    </div>
+
+    <p class="feature-heading">BREAK LENGTH</p>
+    <div class="centering-buttons">
+        <button class="add-subtract-button" id="break-length-sub">-</button>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="minutes-length" id="break-length">5</span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <button class="add-subtract-button" id="break-length-add">+</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <footer>
+        <p class="footer-personal">Designed &amp; coded by <a href="https://shahzaibkhalid.github.io" target="_blank">Shahzaib Khalid</a></p>
+        <p class="footer-code-license">Productive Pomodoro Clock is licensed under the MIT License.</p>
+    </footer>
+
+</body>
+
+</html>
