@@ -10,6 +10,9 @@ let isSessionFinished = false;
 let intervalID;
 let isClocking = false;
 
+/**
+ * This event gets called when session length is subtracted.
+ */
 document.getElementById('session-length-sub').addEventListener('click', function(){
     if(!isClocking) {
         if (sessionLengthElement.innerText > '1') {
@@ -24,6 +27,9 @@ document.getElementById('session-length-sub').addEventListener('click', function
     }
 });
 
+/**
+ *  This event gets called when session length is increased.
+ */
 document.getElementById('session-length-add').addEventListener('click', function(){
     if(!isClocking) {
         sessionLength = parseInt(sessionLengthElement.innerText);
@@ -36,6 +42,9 @@ document.getElementById('session-length-add').addEventListener('click', function
     }
 });
 
+/**
+ *  This event gets called when break length length is subtracted.
+ */
 document.getElementById('break-length-sub').addEventListener('click', function(){
     if(!isClocking) {
         if (breakLengthElement.innerText > '1') {
@@ -50,6 +59,9 @@ document.getElementById('break-length-sub').addEventListener('click', function()
     }
 });
 
+/**
+ *  This event gets called when session length is increased.
+ */
 document.getElementById('break-length-add').addEventListener('click', function(){
     if(!isClocking) {
         breakLength = parseInt(breakLengthElement.innerText);
@@ -62,6 +74,15 @@ document.getElementById('break-length-add').addEventListener('click', function()
     }
 });
 
+/**
+ * 
+ * This function is invoked every time clock button is pressed and it keeps looking for 
+ * changes and keeps updating other variables as state changes
+ * 
+ * @param type - type of period (session or break)
+ * @param length - length of period
+ * @param sec - seconds of length 
+ */
 function clocking(type, length, sec) {
     statusElement.innerHTML = type;
     let estimatedMinutes = length;
@@ -109,6 +130,11 @@ function clocking(type, length, sec) {
     }, 1000);
 }
 
+/**
+ * 
+ * This fuctions takes some preliminary checks and then starts the clock by calling @clocking()
+ * function with related arguments
+ */
 function startClock() {
     if(isClocking) {
         isClocking = false;
