@@ -1,7 +1,7 @@
 # Productive Pomodoro Clock
 ### Goals Achieving Timer
 
-A simple to use, goals achieving Pomodoro technqiue timer, all using HTML, CSS &amp; JavaScript.
+A simple to use, goals achieving Pomodoro technique timer, all using HTML, CSS &amp; JavaScript.
 
 ## Detail
 Pomodoro technique is a tool to do things more productively, and so it needs productive Pomodoro timer at first. That's the reason and idea behind Productive Pomodoro Clock. It's intuitive, minimal, highly configurable and insanely simple to use timer to get things done and cleaning your to-do list more earlier.  
