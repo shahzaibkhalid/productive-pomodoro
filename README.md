@@ -1,0 +1,20 @@
+# Productive Pomodoro Clock
+### Goals Achieving Timer
+
+A simple to use, goals achieving Pomodoro technqiue timer, all using HTML, CSS &amp; JavaScript.
+
+## Detail
+Pomodoro technique is a tool to do things more productively, and so it needs productive Pomodoro timer at first. That's the reason and idea behind Productive Pomodoro Clock. It's intuitive, minimal, highly configurable and insanely simple to use timer to get things done and cleaning your to-do list more earlier.  
+
+## Design
+This is how the design looks like:
+![productive-pomodoro](./images/productive-pomodoro-1.png)
+![productive-pomodoro](./images/productive-pomodoro-2.png)
+![productive-pomodoro](./images/productive-pomodoro-3.png)
+## Demo
+You can watch a demo by clicking [here](https://shahzaibkhalid.github.io/productive-pomodoro/)
+
+# License
+Productive Pomodoro Clock is licensed under the [MIT License](https://github.com/shahzaibkhalid/productive-pomodoro/blob/master/LICENSE.txt).
+
+Copyright (c) 2017 Shahzaib Khalid
